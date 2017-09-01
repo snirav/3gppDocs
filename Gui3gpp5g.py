@@ -23,12 +23,8 @@ class docDownloader(tk.Frame):
         # + meetingNumber + '/Docs/'
 
         # Fill the designers List
-        self.meetingEntries=['85',
-                             '86',
-                             '86b',
-                             '87',
-                             '87b',
-                             '88']
+        self.meetingEntries=['88b',
+                             '90']
         # Website Selection Menu
         self.defaultWebsite = tk.StringVar()
         self.defaultWebsite.set('Please select the Website')
